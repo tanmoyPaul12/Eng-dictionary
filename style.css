@@ -40,4 +40,7 @@ input{
     input{
         max-width: min-content;
     }
+    .meaning-container{
+        max-width: min-content;
+    }
 }
