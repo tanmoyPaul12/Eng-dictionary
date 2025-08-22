@@ -20,3 +20,14 @@ body{
     font-size: 18px;
     font-weight:500;
 }
+input{
+    height: 53px;
+    width: 300px;
+    background-color: rgba(225, 225, 225, 0.6);
+    padding: 0 42px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+.meaning-container{
+    display: none;
+}
