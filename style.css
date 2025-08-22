@@ -3,8 +3,9 @@ body{
     padding: 0;
     background-color:salmon;
     height: 100vh;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content:center;
+    align-items: center;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -13,8 +14,8 @@ body{
     padding: 28px;
     border-radius: 7px;
     box-shadow: 0 10px 10px rgba(0,0,0,0.3);
-    width: 90%;
     margin: 10px;
+    width: 90%;
     max-width: 450px;
     text-align: center;
     font-size: 18px;
@@ -30,4 +31,13 @@ input{
 }
 .meaning-container{
     display: none;
+}
+@media screen and (max-width:550px) {
+    .container{
+        max-width: min-content;
+        width: min-content;
+    }
+    input{
+        max-width: min-content;
+    }
 }
