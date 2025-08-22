@@ -41,6 +41,7 @@ input{
         max-width: min-content;
     }
     .meaning-container{
+        display: none;
         max-width: min-content;
     }
 }
